@@ -9,8 +9,6 @@ to provide it to a **view**. Conncecting controllers and actions to incoming req
 A *view*'s purpose is to display this information in a human-readable format. It is important to understand that
 it is the controller that retrieves the information, while the view is only responsible for displaying it. 
 
-## Resources
-
 A **resource** is a collection of similar objects. You can create, read, update, and destroy items for a resource, and these
 operations are referred to as *CRUD* operations. Rails provides a ```resources``` method which can be used to declare a 
 standard REST resource. The actions of our controllers perform CRUD operations on elements of our resource. These actions collect information from the resource and populate *templates* to generate views.
